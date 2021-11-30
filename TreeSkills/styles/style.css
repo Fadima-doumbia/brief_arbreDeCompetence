@@ -1,34 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
 
 html{
-	min-height: 100%;
+
 }
 
 body{
 	font-family: 'Sulphur Point', sans-serif;
 	background: #2B2B2B;
-	margin : 0;
+	margin: 0;
 	padding: 0;
-}
-
-.container{
-	display: block;
 }
 
 .headerBackground{
 	text-align: center;
 	background: #07A0C3;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -10px;
-	margin-left: -40px;
-	margin-right: -40px;
 	box-shadow: 0em 1em rgba(0,0,0,0) , 0 0 1em rgba(0,0,0,0.3);
-
+	width: 100%;
 }
 
 .headerText{
-	overflow: ;
 	text-align: center;
 	color: #ffffff;
 	font-size: 55px;
@@ -36,17 +26,97 @@ body{
 
 .mainBody{
 	z-index: -1;
-	background: #fff111;
-	width: 100vh;
-	height: 100vh;
+	background: #2B2B2C;
 }
 
 .studentSelectorBackground{
-	min-height: 5em;
+	min-height: 1em;
 	background: #2B2B2C;
-	align-content: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.studentSelectorBackground .alignation{
+	display: flex;
+	justify-content: end;
+	align-items: baseline;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 1em;
+}
+
+.studentSelectorBackground .alignation .text{
+	font-size: 1.8em;
+	color: white;
+	margin-right: 0.5em;
 }
 
 .studentSelector{
-	align-items: left;
+	border-radius: 8px;
+	width: 7em;
+	color: white;
+	background-color: #525252;
+	font-size: 1.35em;
+	text-align: center;
+	font-family: 'Sulphur Point', sans-serif;
+
 }
+
+.container{
+	background: #2B2B2C;
+	height: 100vh;
+}
+
+.infoBlockBackground
+{
+	color: white;
+	background-color: #454A49;
+	/*height: 8em;*/
+	margin-top: 0.5em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	border-radius: 50px;
+}
+
+.infoBlockBackground .title
+{
+	color: white;
+	font-size: 1.8em;
+	text-align: center;
+}
+.infoBlockBackground .infoBlock
+{
+	display: flex;
+	justify-content: center;
+}
+.infoBlockBackground .infoContainer
+{
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
+.infoBlockBackground .infoContainer .profilContainer
+{
+	display: flex;
+}
+
+.infoBlockBackground .infoContainer .profil
+{
+	height: 1em;
+	width: 1em;
+	background-color: #FFB400;
+	border-radius: 50px;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.infoBlockBackground .progress
+{
+	text-align: center;
+	height: 1.5em;
+	width: 6em;
+	background-color: #C7EFCF;
+	border-radius: 50px;
+	font-size: 1em;
+	color: black;
+}
+

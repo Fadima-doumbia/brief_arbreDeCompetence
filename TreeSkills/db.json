@@ -1,0 +1,35 @@
+{
+    "Apprenants": [
+      { "id": 1, "nom": "Asad", "avatar": "http://lorempixel.com/300/300/" },
+      { "id": 2, "nom": "Fadima", "avatar": "http://lorempixel.com/300/300/" },
+      { "id": 3, "nom": "Ilyes", "avatar": "http://lorempixel.com/300/300/" },
+      { "id": 4, "nom": "Bamba", "avatar": "http://lorempixel.com/300/300/" }
+    ],
+    "Compétences": [
+      { "id": 1, "title": "Maquetter une application", "idCategorie": 1, "déscription": "" },
+      { "id": 2, "title": "Développer une interface utilisateur de type desktop", "idCategorie": 1, "déscription": "" },
+      { "id": 3, "title": "Développer des composants d’accès aux données", "idCategorie": 1, "déscription": "" },
+      { "id": 4, "title": "Développer la partie front-end d’une interface utilisateur web", "idCategorie": 1, "déscription": "" },
+      { "id": 5, "title": "Développer la partie back-end d’une interface utilisateur web", "idCategorie": 1, "déscription": "" },
+      { "id": 6, "title": "Concevoir une base de données", "idCategorie": 2, "déscription": "" },
+      { "id": 7, "title": "Mettre en place une base de données", "idCategorie": 2, "déscription": "" },
+      { "id": 8, "title": "Développer des composants dans le langage d’une base de données", "idCategorie": 2, "déscription": "" },
+      { "id": 9, "title": "Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement", "idCategorie": 3, "déscription": "" },
+      { "id": 10, "title": "Concevoir une application", "idCategorie": 3, "déscription": "" },
+      { "id": 11, "title": "Développer des composants métier", "idCategorie": 3, "déscription": "" },
+      { "id": 12, "title": "Construire une application organisée en couches", "idCategorie": 3, "déscription": "" },
+      { "id": 13, "title": "Développer une application mobile", "idCategorie": 3, "déscription": "" },
+      { "id": 14, "title": "Préparer et exécuter les plans de tests d’une application", "idCategorie": 3, "déscription": "" },
+      { "id": 15, "title": "Préparer et exécuter le déploiement d’une application", "idCategorie": 3, "déscription": "" }
+    ],
+    "Catégories": [
+      { "id": 1, "title": "Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité", "déscription": "" },
+      { "id": 2, "title": "Concevoir et développer la persistance des données en intégrant les recommandations de sécurité", "déscription": "" },
+      { "id": 3, "title": "Concevoir et développer une application multicoucherépartie en intégrant les recommandations de sécurité", "déscription": "" }
+    ],
+    "Niveaux": [
+      { "id": 1, "title": "Niveau 1" },
+      { "id": 2, "title": "Niveau 2" },
+      { "id": 3, "title": "Niveau 3" }
+    ]
+  }

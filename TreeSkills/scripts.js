@@ -1,9 +1,13 @@
+
+/*==================================================*/
+
+let categories_container = document.querySelector('#id_Container');
 let container = document.querySelector('#id_Container');
 let listApn = document.querySelector('studentSelector');
 
 let urlCategorie = "http://localhost:3000/Categories";
 
-function ReadCategorieDB(url, method){
+function ReadDB(url, method){
 	fetch(url)
 	.then((response)=> {
 	  return response.json();
@@ -16,9 +20,22 @@ function ReadCategorieDB(url, method){
 function CraftCategories(data)
 {
 	data.forEach(element => { 
-		container.innerHTML += `<div class='infoBlockBackground'><div class='title'>${element.title}</div></div>`;
-		console.log(element);
+		if(categories_container != null)
+			categories_container.innerHTML += 
+		`<a href="./student.html?categorie_id=${element.id}"><div class='infoBlockBackground'>
+			<div class='title'>
+			${element.title}
+			</div>
+		</div></a>`;
 	});
 }
 
-ReadCategorieDB(urlCategorie, CraftCategories);
+function GetCategorieID(id){
+	console.log(id);
+}
+
+ReadDB(urlCategorie, CraftCategories);
+
+
+/******************************************/
+

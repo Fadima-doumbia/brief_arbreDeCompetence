@@ -7,6 +7,7 @@
 	<title></title>
 </head>
 <body>
+	<script src="studentJS.js" defer></script>
 
 	<header>
 		<div class="headerBackground">
@@ -23,47 +24,14 @@
 				Student
 				</div> 
 				<div>
-					<select class="studentSelector">  
-						<option> List item 1 </option>  
-					 	<option> List item 2 </option>  
-						<option> List item 3 </option>  
-					  	<option> List item N </option>  
+					<select class="studentSelector" id="id_StudentSelector" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);"> 
 					</select> 
 				</div>
 			</div>							
 		</div>
 
-		<div class="container">
-			<div class="infoBlockBackground">
-				<div class="title">
-					Skill Title
-				</div>
-				<div class="infoBlock">
-					<div class="infoContainer">
-						<div class="profilContainer">
-							<div class="profil"></div>
-							<div class="profil"></div>
-						</div>
-						<div class="progress">Level 1</div>
-					</div>
-					<div class="infoContainer">
-						<div class="profilContainer">
-							<div class="profil"></div>
-							<div class="profil"></div>
-						</div>
-						<div class="progress">Level 2</div>
-					</div>
-					<div class="infoContainer">
-						<div class="profilContainer">
-							<div class="profil"></div>
-							<div class="profil"></div>
-							<div class="profil"></div>
-							<div class="profil"></div>
-						</div>
-						<div class="progress">Level 3</div>
-					</div>
-				</div>
-			</div>
+		<div class="container" id="id_Container_Skills">
+			
 		</div>
 	</div>
 

@@ -31,5 +31,29 @@
       { "id": 1, "title": "Niveau 1" },
       { "id": 2, "title": "Niveau 2" },
       { "id": 3, "title": "Niveau 3" }
+    ],    
+    "Combinaisons": [
+      { "id": 1,  "id_competence": 1, "id_niveau": 1},
+      { "id": 2, "id_competence": 1, "id_niveau": 2 },
+      { "id": 3, "id_competence": 1, "id_niveau": 3 },      
+      { "id": 4,  "id_competence": 2, "id_niveau": 1},
+      { "id": 5, "id_competence": 2, "id_niveau": 2 },
+      { "id": 6, "id_competence": 2, "id_niveau": 3 },      
+      { "id": 7,  "id_competence": 3, "id_niveau": 1},
+      { "id": 8, "id_competence": 3, "id_niveau": 2 },
+      { "id": 9, "id_competence": 3, "id_niveau": 3 },      
+      { "id": 10,  "id_competence": 4, "id_niveau": 1},
+      { "id": 11, "id_competence": 4, "id_niveau": 2 },
+      { "id": 12, "id_competence": 4, "id_niveau": 3 }
+    ],
+    "Validation": [
+      { "idApprenant": 1, "idCombinaison": 1 },
+      { "idApprenant": 1, "idCombinaison": 2 },
+      { "idApprenant": 1, "idCombinaison": 3 },
+      { "idApprenant": 2, "idCombinaison": 1 },
+      { "idApprenant": 2, "idCombinaison": 2 },
+      { "idApprenant": 2, "idCombinaison": 6 },
+      { "idApprenant": 3, "idCombinaison": 4 },
+      { "idApprenant": 4, "idCombinaison": 5 }
     ]
   }

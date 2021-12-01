@@ -1,24 +1,24 @@
-function InstantiateUsersList(data){
-	let usersList = [];
-		//data.foreach(user => );
-		for(let i = 0; i < data.length; i++){
-			let user = data[i];
-			usersList.push(new User(user.id, user.email, user.first_name, user.last_name, user.avatar));
-		}
+let container = document.querySelector('#id_Container');
+let listApn = document.querySelector('studentSelector');
 
-		for(i = 0; i < usersList.length ; i++)
-			document.querySelector('#listingEvent').innerHTML += "<div><p>" + usersList[i].GetFirstLastName() + "</p></div>";
+let urlCategorie = "http://localhost:3000/Categories";
 
-}
-
-function ReadData(url){
-	let jsonData;
-	fetch(url).then(function(resp){
-		if(resp.ok)
-		{
-			return resp.json();
-		}
-	}).then(function(jsonData){
-		InstantiateUsersList(jsonData['data']);
+function ReadCategorieDB(url, method){
+	fetch(url)
+	.then((response)=> {
+	  return response.json();
 	})
+	.then((responJson) => {
+	    method(responJson);
+	});
 }
+
+function CraftCategories(data)
+{
+	data.forEach(element => { 
+		container.innerHTML += `<div class='infoBlockBackground'><div class='title'>${element.title}</div></div>`;
+		console.log(element);
+	});
+}
+
+ReadCategorieDB(urlCategorie, CraftCategories);

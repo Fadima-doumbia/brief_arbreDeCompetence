@@ -14,8 +14,8 @@ body{
 .headerBackground{
 	text-align: center;
 	background: #07A0C3;
-	box-shadow: 0em 1em rgba(0,0,0,0) , 0 0 1em rgba(0,0,0,0.3);
 	width: 100%;
+	box-shadow: 0em 1em rgba(0,0,0,0) , 0 0 2em rgba(0,0,0,0.5);
 }
 
 .headerText{
@@ -25,9 +25,9 @@ body{
 }
 
 .mainBody{
-	z-index: -1;
+	z-index: -5;
 	background: #2B2B2C;
-	
+
 	width: 30vw;
 	margin: auto;
 }

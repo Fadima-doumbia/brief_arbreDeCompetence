@@ -5,7 +5,7 @@
       { "id": 3, "nom": "Ilyes", "avatar": "http://lorempixel.com/300/300/" },
       { "id": 4, "nom": "Bamba", "avatar": "http://lorempixel.com/300/300/" }
     ],
-    "Competences": [
+    "Compétences": [
       { "id": 1, "title": "Maquetter une application", "idCategorie": 1, "déscription": "" },
       { "id": 2, "title": "Développer une interface utilisateur de type desktop", "idCategorie": 1, "déscription": "" },
       { "id": 3, "title": "Développer des composants d’accès aux données", "idCategorie": 1, "déscription": "" },
@@ -22,7 +22,7 @@
       { "id": 14, "title": "Préparer et exécuter les plans de tests d’une application", "idCategorie": 3, "déscription": "" },
       { "id": 15, "title": "Préparer et exécuter le déploiement d’une application", "idCategorie": 3, "déscription": "" }
     ],
-    "Categories": [
+    "Catégories": [
       { "id": 1, "title": "Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité", "déscription": "" },
       { "id": 2, "title": "Concevoir et développer la persistance des données en intégrant les recommandations de sécurité", "déscription": "" },
       { "id": 3, "title": "Concevoir et développer une application multicoucherépartie en intégrant les recommandations de sécurité", "déscription": "" }
